@@ -10,17 +10,17 @@ VR Base
 
 Extend VrBase to inherit all the needed function and elements to get started with Away3D. Based on Sprite, just add to the display list to get started.
 
---
+
 useful overrides:
 onInit();
 onPreRender()
 onPostRender()
 onStageResize()
---
+
 start() and stop() functions to control rendering.
---
+
 addChild3D() and removeChild3D() to quickly add and remove ObjectContainer3D.
---
+
 Requires [AS3 Signals](https://github.com/robertpenner/as3-signals)
 
 
@@ -28,7 +28,7 @@ Requires [AS3 Signals](https://github.com/robertpenner/as3-signals)
 HoverCamera3D
 -----
 Ripped from Away3D 3.6 and updated to use Signals for event mapping. Pass it a reference to the stage and call camera.hover() in your render loop. Done.
---
+
 Requires [AS3 Signals](https://github.com/robertpenner/as3-signals)
 
 
@@ -39,5 +39,5 @@ Scripts for Flint
 DomeZone
 -----
 Extend SphereZone but will only arrange the particles in +y, or -y if inverted, to create a nice dome (perfect for stars!)
---
+
 Requires [Flint Particles](http://flintparticles.org/)
